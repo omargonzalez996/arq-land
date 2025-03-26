@@ -27,6 +27,9 @@ const Navbar = () => {
                     <NavLink to="/" className={isActive('/') ? 'text-secondary' : 'text-primaryaccent hover:text-blue-400'}>
                         INICIO
                     </NavLink>
+                    <NavLink to="/proyectos" className={isActive('/proyectos') ? 'text-secondary' : 'text-primaryaccent hover:text-blue-400'}>
+                        PROYECTOS
+                    </NavLink>
                     <NavLink to="/servicios" className={isActive('/servicios') ? 'text-secondary' : 'text-primaryaccent hover:text-blue-400'}>
                         SERVICIOS
                     </NavLink>
@@ -62,6 +65,16 @@ const Navbar = () => {
                         >
                             <NavLink to="/" className={isActive('/') ? 'text-secondary' : 'text-primaryaccent'}>
                                 INICIO
+                            </NavLink>
+                        </motion.div>
+                        <motion.div
+                            className="block text-primaryaccent hover:text-gray-300"
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.3, delay: 0.1 }}
+                        >
+                            <NavLink to="/proyectos" className={isActive('/proyectos') ? 'text-secondary' : 'text-primaryaccent'}>
+                                PROYECTOS
                             </NavLink>
                         </motion.div>
                         <motion.div

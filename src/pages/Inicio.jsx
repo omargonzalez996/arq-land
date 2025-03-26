@@ -1,4 +1,5 @@
 import React from 'react'
+import HomeServices from '../components/HomeServices'
 import HomeAbout from '../components/HomeAbout'
 import HomePortafolio from '../components/HomePortafolio'
 import BottomContact from '../components/BottomContact'
@@ -10,6 +11,7 @@ const Inicio = () => {
         <>
             <Hero />
             <div className='container mx-auto max-w-[1200px] p-5'>
+                <HomeServices />
                 <HomeAbout />
                 <HomePortafolio />
                 <BottomContact />

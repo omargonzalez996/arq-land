@@ -15,7 +15,7 @@ const HomeAbout = () => {
                 {/* Columna 2: Párrafo */}
                 <div className="flex-1 text-left max-w-[800px]">
                     <p className='text-primaryaccent'>
-                        En ILArchDesign, estamos listos para escuchar tus ideas y transformarlas en espacios únicos y funcionales. Contáctanos hoy mismo y empecemos a trabajar juntos en tu próximo proyecto.
+                        Estamos listos para escuchar tus ideas y transformarlas en espacios únicos y funcionales. Contáctanos hoy mismo y empecemos a trabajar juntos en tu próximo proyecto.
                     </p>
                 </div>
             </div>

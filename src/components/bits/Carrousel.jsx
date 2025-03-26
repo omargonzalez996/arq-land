@@ -6,15 +6,15 @@ const Carousel = () => {
     // Array de imágenes (puedes reemplazar con tus propias URLs)
     const slides = [
         {
-            src: 'https://i.ibb.co/ZpGkFT7s/ila-02.jpg',
+            src: 'https://i.imgur.com/bagPsQM.jpg',
             alt: 'Casa IKER',
         },
         {
-            src: 'https://i.ibb.co/RwVTcWc/ila-07.jpg',
+            src: 'https://i.imgur.com/vjjkXOP.jpg',
             alt: 'Residencial JULIAN',
         },
         {
-            src: 'https://i.ibb.co/svFNhPBR/ila-05.jpg',
+            src: 'https://i.imgur.com/94UabPr.jpg',
             alt: 'Casa JENNIFER',
         },
     ];

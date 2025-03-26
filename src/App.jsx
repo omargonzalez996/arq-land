@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Inicio from './pages/Inicio'
+import Proyectos from './pages/Proyectos'
 import Servicios from './pages/Servicios'
 import Contacto from './pages/Contacto'
 import NotFound from './pages/NotFound'
@@ -18,6 +19,7 @@ function App() {
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Inicio />} />
+              <Route path='/proyectos' element={<Proyectos />} />
               <Route path="/servicios" element={<Servicios />} />
               <Route path="/contacto" element={<Contacto />} />
               <Route path="*" element={<NotFound />} />
